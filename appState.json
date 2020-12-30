@@ -1,0 +1,116 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "287403a1-c2fc-40b5-8f9b-54b0e2beaecd": {
+        "id": "287403a1-c2fc-40b5-8f9b-54b0e2beaecd",
+        "parent": null,
+        "name": "kpyohio.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "kpyohio.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "kpyohio"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigk1kany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1609323693043
+      }
+    },
+    "openFiles": [
+      "287403a1-c2fc-40b5-8f9b-54b0e2beaecd"
+    ],
+    "currentFileId": "287403a1-c2fc-40b5-8f9b-54b0e2beaecd",
+    "resources": {
+      "snsdynamodb": {
+        "name": "snsdynamodb",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "dynamodb",
+          "topicArn": "arn:aws:sns:us-east-2:318300609668:dynamodb",
+          "snsType": 0,
+          "subscriptions": []
+        }
+      },
+      "apigk1kany": {
+        "name": "apigk1kany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "k1",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "k",
+          "resourcePath": "/k",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.16.43",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.8",
+    "projectName": "kpyohio",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-2",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1609323786925
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kpyohio",
+      "url": "https://github.com/Kumudikatest/kpyohio"
+    }
+  }
+}
