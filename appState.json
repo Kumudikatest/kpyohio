@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "kpyohio.py",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 13,
+          "column": 19
         },
         "config": {
           "runtime": "python3.8",
@@ -28,7 +28,16 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1609323693043
+        "lastUpdated": 1609323693043,
+        "testCases": {
+          "00cf9d13-9013-4afb-904e-c9eb9bfe4cd3": {
+            "id": "00cf9d13-9013-4afb-904e-c9eb9bfe4cd3",
+            "name": "Test event",
+            "functionId": "287403a1-c2fc-40b5-8f9b-54b0e2beaecd",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -104,7 +113,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1609323786925
+    "lastSave": 1609323886889
   },
   "VCS_STATE": {
     "provider": "GitHub",

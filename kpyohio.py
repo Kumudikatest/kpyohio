@@ -10,6 +10,7 @@ def handler(event, context):
             MessageStructure="String",
             MessageAttributes={}
         )
+        print(data)
     except BaseException as e:
         print(e)
         raise(e)
